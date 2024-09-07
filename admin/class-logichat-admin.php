@@ -1,5 +1,7 @@
 <?php
 
+if (! defined('ABSPATH')) exit; // Exit if accessed directly 
+
 /**
  * The admin-specific functionality of the plugin.
  *
@@ -20,8 +22,7 @@
  * @subpackage Logichat/admin
  * @author     Dale Nguyen <dale@dalenguyen.me>
  */
-class Logichat_Admin
-{
+class Logichat_Admin {
 
     /**
      * The ID of this plugin.
@@ -48,8 +49,7 @@ class Logichat_Admin
      * @param      string    $plugin_name       The name of this plugin.
      * @param      string    $version    The version of this plugin.
      */
-    public function __construct($plugin_name, $version)
-    {
+    public function __construct($plugin_name, $version) {
 
         $this->plugin_name = $plugin_name;
         $this->version = $version;
@@ -60,8 +60,7 @@ class Logichat_Admin
      *
      * @since    1.0.0
      */
-    public function register_settings_page()
-    {
+    public function register_settings_page() {
         // Create our settings page as a submenu page.
         add_submenu_page(
             'tools.php',                            // parent slug
@@ -78,8 +77,7 @@ class Logichat_Admin
      *
      * @since    1.0.0
      */
-    public function display_settings_page()
-    {
+    public function display_settings_page() {
         require_once plugin_dir_path(dirname(__FILE__)) . 'admin/partials/logichat-admin-display.php';
     }
 
@@ -88,8 +86,7 @@ class Logichat_Admin
      *
      * @since    1.0.0
      */
-    public function register_settings()
-    {
+    public function register_settings() {
 
         // Here we are going to register our setting.
         register_setting(
@@ -124,8 +121,7 @@ class Logichat_Admin
      *
      * @since    1.0.0
      */
-    public function sandbox_register_setting($input)
-    {
+    public function sandbox_register_setting($input) {
 
         $new_input = array();
 
@@ -148,8 +144,7 @@ class Logichat_Admin
      *
      * @since    1.0.0
      */
-    public function sandbox_add_settings_section()
-    {
+    public function sandbox_add_settings_section() {
 
         print 'Please visit <a href="https://logichat.io" target="_blank">Logichat</a> website to create you app and get the APP_ID.';
     }
@@ -160,8 +155,7 @@ class Logichat_Admin
      *
      * @since    1.0.0
      */
-    public function sandbox_add_settings_field_input_text($args)
-    {
+    public function sandbox_add_settings_field_input_text($args) {
 
         $field_id = esc_attr($args['label_for']);
 
@@ -174,12 +168,12 @@ class Logichat_Admin
 
 
 ?>
-        <input 
-            type="text" 
-            name="<?php echo esc_attr($this->plugin_name . '-settings[' . $field_id . ']'); ?>" 
-            id="<?php echo esc_attr($this->plugin_name . '-settings[' . $field_id . ']'); ?>" 
-            value="<?php echo esc_attr($option); ?>" 
-            class="regular-text" 
+        <input
+            type="text"
+            name="<?php echo esc_attr($this->plugin_name . '-settings[' . $field_id . ']'); ?>"
+            id="<?php echo esc_attr($this->plugin_name . '-settings[' . $field_id . ']'); ?>"
+            value="<?php echo esc_attr($option); ?>"
+            class="regular-text"
             placeholder="Enter your APP_ID" />
 <?php
 

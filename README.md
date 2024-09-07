@@ -13,11 +13,13 @@ Logichat is a plugin that helps to bring AI knowledge chat to your WordPress web
 
 ## Description ##
 
-The Logichat plugin will help user to create chat bot on their website with ease. 
+This plugin relies on 3rd party [Logichat](https://logichat.io) service which will be used to retrieve your chat configuration to create the chat functionality for your website. 
 
 ## Links ##
 
-* [Logichat](https://logichat.io)
+* [Logichat website](https://logichat.io)
+* [Privacy Policy](https://logichat.io/privacy-policy.html)
+* [Terms Of Service](hthttps://logichat.io/terms-of-service.html)
 * [Github project page](https://github.com/dalenguyen/logichat-wordpress-plugin)
 * [View CHANGELOG](https://github.com/dalenguyen/logichat-wordpress-plugin/blob/master/CHANGELOG.md)
 
@@ -42,10 +44,10 @@ You can find Logichat settings under `Tools > Logichat`.
 ## Screenshots ##
 
 ### 1. After activating the plugin, you can find Logichat under `Tools > Logichat`. ###
-![After activating the plugin, you can find Logichat under `Tools > Logichat`.](./assets/screenshot-1.png)
+![After activating the plugin, you can find Logichat under `Tools > Logichat`.](http://ps.w.org/logichat/assets/screenshot-1.png)
 
 ### 2. After that, you need to enter the Logichat APP_ID for the app to work. ###
-![After that, you need to enter the Logichat APP_ID for the app to work.](./assets/screenshot-2.png)
+![After that, you need to enter the Logichat APP_ID for the app to work.](http://ps.w.org/logichat/assets/screenshot-2.png)
 
 
 ## Changelog ##
