@@ -45,3 +45,4 @@ node_modules
 # Custom files
 publish.sh
 tests
+pnpm-lock.yaml

@@ -8,7 +8,7 @@
  * Text Domain:     logichat
  * License:         GPL-2.0+
  * Domain Path:     /languages
- * Version:         1.0.1
+ * Version:         1.0.2
  *
  * @package         Logichat
  */
@@ -18,7 +18,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'LOGICHAT_VERSION', '1.0.1' );
+define( 'LOGICHAT_VERSION', '1.0.2' );
 
 
 /**

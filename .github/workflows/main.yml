@@ -19,4 +19,4 @@ jobs:
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SLUG: logichat
-          VERSION: 1.0.1
+          VERSION: 1.0.2
