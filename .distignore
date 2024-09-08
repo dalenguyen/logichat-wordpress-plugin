@@ -41,3 +41,7 @@ node_modules
 *.sql
 *.tar.gz
 *.zip
+
+# Custom files
+publish.sh
+tests

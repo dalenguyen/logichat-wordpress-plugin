@@ -5,13 +5,13 @@ Tags:                   ai, chat
 Requires at least:      4.5
 Tested up to:           6.6
 Requires PHP:           5.6
-Stable tag:             1.0.0
+Stable tag:             1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Logichat is a plugin that helps to bring AI knowledge chat to your WordPress website.
-
 == Description ==
+
+Logichat is a plugin that helps to bring AI knowledge chat to your WordPress website.
 
 This plugin relies on 3rd party [Logichat](https://logichat.io) service which will be used to retrieve your chat configuration to create the chat functionality for your website. 
 
@@ -47,6 +47,9 @@ You can find Logichat settings under `Tools > Logichat`.
 2. After that, you need to enter the Logichat APP_ID for the app to work.
 
 == Changelog ==
+
+= 1.1.0 =
+* Update description
 
 = 1.0.0 =
 * Initialize the project
